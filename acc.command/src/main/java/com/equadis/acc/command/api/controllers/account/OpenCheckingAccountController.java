@@ -1,7 +1,7 @@
 package com.equadis.acc.command.api.controllers.account;
 
 import com.equadis.acc.command.api.commands.account.OpenAccountCommand;
-import infrastructure.CommandDispatcher;
+import com.equadis.acc.command.infrastructure.dispatcher.CommandDispatcher;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
